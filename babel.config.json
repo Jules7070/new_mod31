@@ -1,0 +1,9 @@
+{
+  "presets": [
+    "@babel/preset-env",  // Transforma el código para compatibilidad con versiones específicas de Node o navegadores
+    "@babel/preset-react" // Transforma JSX para React
+  ],
+  "plugins": [
+    "@babel/plugin-transform-runtime" // Optimiza el uso de helpers y funciones async/await
+  ]
+}
